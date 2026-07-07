@@ -1,0 +1,43 @@
+###################
+# Java
+###################
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+*.war
+
+###################
+# IntelliJ
+###################
+.idea/
+*.iml
+
+###################
+# Node
+###################
+frontend/node_modules/
+frontend/build/
+
+###################
+# OS
+###################
+.DS_Store
+Thumbs.db
+
+###################
+# Logs
+###################
+*.log
+
+###################
+# Environment
+###################
+.env
+.env.*
+application-local.properties
+
+###################
+# VS Code
+###################
+.vscode/
