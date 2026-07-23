@@ -1,9 +1,8 @@
 import axios from 'axios';
 
-const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:8080',
-  timeout: 60000,
-});
+axios.create({
+    baseURL: "https://reconflow.onrender.com"
+})
 
 // Auto-attach JWT token to every request
 api.interceptors.request.use(cfg => {
