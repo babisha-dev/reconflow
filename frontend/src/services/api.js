@@ -1,9 +1,8 @@
 import axios from 'axios';
 
-axios.create({
+const api = axios.create({
     baseURL: "https://reconflow.onrender.com"
-})
-
+});
 // Auto-attach JWT token to every request
 api.interceptors.request.use(cfg => {
   const token = localStorage.getItem('token');
