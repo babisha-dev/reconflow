@@ -3,10 +3,10 @@ import { reconciliationAPI, uploadAPI } from '../../services/api';
 import toast from 'react-hot-toast';
 
 const STATUS = {
-  MATCHED:           { label:'Matched',      color:'#22543d', bg:'#f0fff4', icon:'✅' },
-  PARTIALLY_MATCHED: { label:'Partial Match',color:'#7b341e', bg:'#fffaf0', icon:'⚡' },
-  NOT_MATCHED:       { label:'Not Matched',  color:'#742a2a', bg:'#fff5f5', icon:'❌' },
-  DUPLICATE:         { label:'Duplicate',    color:'#553c9a', bg:'#faf5ff', icon:'🔁' },
+  MATCHED:           { label:'Matched',      color:'#22543d', bg:'#f0fff4', icon:'' },
+  PARTIALLY_MATCHED: { label:'Partial Match',color:'#7b341e', bg:'#fffaf0', icon:'' },
+  NOT_MATCHED:       { label:'Not Matched',  color:'#742a2a', bg:'#fff5f5', icon:'' },
+  DUPLICATE:         { label:'Duplicate',    color:'#553c9a', bg:'#faf5ff', icon:'' },
 };
 
 export default function ReconciliationView() {

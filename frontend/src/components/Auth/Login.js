@@ -25,9 +25,9 @@ export default function Login() {
     <div style={S.page}>
       <div style={S.card}>
         <div style={{ textAlign:'center', marginBottom:32 }}>
-          <div style={{ fontSize:52, marginBottom:8 }}>⚖️</div>
-          <h1 style={S.title}>Smart Reconciliation</h1>
-          <p  style={S.sub}>Audit & Reconciliation System</p>
+          <div style={{ fontSize:52, marginBottom:8,color:'darkcyan' }}>𝓡𝓕</div>
+          <h1 style={S.title}>ReconFlow</h1>
+          <p  style={S.sub}>Ready to transform your messy financial data into audit-ready records?</p>
         </div>
 
         <form onSubmit={submit} style={{ display:'flex', flexDirection:'column', gap:16 }}>
@@ -48,9 +48,9 @@ export default function Login() {
 
         <div style={S.hints}>
           <p style={{ fontSize:11, fontWeight:700, color:'#4a5568', marginBottom:8 }}>Demo Credentials</p>
-          {[['👑','admin / admin123','Admin'],
-            ['🔬','analyst1 / analyst123','Analyst'],
-            ['👁️','viewer1 / viewer123','Viewer']].map(([icon,cred,role]) => (
+          {[['1.','admin / admin123','Admin'],
+            ['2.','analyst1 / analyst123','Analyst'],
+            ['3.','viewer1 / viewer123','Viewer']].map(([icon,cred,role]) => (
             <div key={role} style={{ display:'flex', gap:8, marginBottom:5, alignItems:'center' }}>
               <span>{icon}</span>
               <span style={{ fontSize:12, color:'#2d3748', fontWeight:600 }}>{cred}</span>

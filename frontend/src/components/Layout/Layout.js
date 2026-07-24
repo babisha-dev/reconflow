@@ -30,9 +30,9 @@ export default function Layout() {
         {/* Logo */}
         <div onClick={() => setMini(!mini)} style={{ padding:'18px 14px', cursor:'pointer',
           display:'flex', alignItems:'center', gap:12, borderBottom:'1px solid rgba(255,255,255,.08)' }}>
-          <span style={{ fontSize:26, flexShrink:0 }}>⚖️</span>
+          <span style={{ fontSize:26, flexShrink:0 }}>𝓡𝓕</span>
           {!mini && <div>
-            <div style={{ color:'#fff', fontWeight:700, fontSize:14 }}>SmartRecon</div>
+            <div style={{ color:'#fff', fontWeight:700, fontSize:14 }}>ReconFlow</div>
             <div style={{ color:'#718096', fontSize:11 }}>v1.0</div>
           </div>}
         </div>
@@ -78,8 +78,7 @@ export default function Layout() {
           display:'flex', alignItems:'center', justifyContent:'space-between',
           boxShadow:'0 1px 3px rgba(0,0,0,.05)' }}>
           <div style={{ fontSize:17, fontWeight:800, color:'#1a202c' }}>
-            Smart Reconciliation & Audit System
-          </div>
+      Reconcile & Audit Records          </div>
           <div style={{ fontSize:13, color:'#718096' }}>
             👤 {user?.username} &nbsp;|&nbsp; {new Date().toLocaleDateString()}
           </div>

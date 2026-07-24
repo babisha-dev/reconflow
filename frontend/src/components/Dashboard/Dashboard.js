@@ -5,12 +5,12 @@ import { reconciliationAPI, uploadAPI } from '../../services/api';
 import toast from 'react-hot-toast';
 
 const CARDS = [
-  { key:'totalRecords',          label:'Total Records',  icon:'📄', color:'#667eea', bg:'#ebf4ff' },
-  { key:'matchedRecords',        label:'Matched',        icon:'✅', color:'#48bb78', bg:'#f0fff4' },
-  { key:'unmatchedRecords',      label:'Unmatched',      icon:'❌', color:'#fc8181', bg:'#fff5f5' },
-  { key:'duplicateRecords',      label:'Duplicates',     icon:'🔁', color:'#9f7aea', bg:'#faf5ff' },
-  { key:'partiallyMatchedRecords',label:'Partial Match', icon:'⚡', color:'#ed8936', bg:'#fffaf0' },
-  { key:'reconciliationAccuracy',label:'Accuracy %',     icon:'🎯', color:'#38b2ac', bg:'#e6fffa',
+  { key:'totalRecords',          label:'Total Records',  icon:'Records', color:'#667eea', bg:'#ebf4ff' },
+  { key:'matchedRecords',        label:'Matched',        icon:'Matched Records', color:'#48bb78', bg:'#f0fff4' },
+  { key:'unmatchedRecords',      label:'Unmatched',      icon:'Unmatched Records', color:'#fc8181', bg:'#fff5f5' },
+  { key:'duplicateRecords',      label:'Duplicates',     icon:'Duplicate Records', color:'#9f7aea', bg:'#faf5ff' },
+  { key:'partiallyMatchedRecords',label:'Partial Match', icon:'Partially Matched Records', color:'#ed8936', bg:'#fffaf0' },
+  { key:'reconciliationAccuracy',label:'Accuracy ',     icon:'Matched Accuracy', color:'#38b2ac', bg:'#e6fffa',
     format: v => v + '%' },
 ];
 
